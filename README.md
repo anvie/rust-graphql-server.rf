@@ -2,7 +2,8 @@
 [![Status](https://img.shields.io/badge/build-passing-brightgreen)]()
 [![Status](https://img.shields.io/badge/pull--request-open-blue)]()
 
-Canduma Rust authentication server [Reframe](https://github.com/ansvia/reframe) source.
+[Reframe](https://github.com/ansvia/reframe) source for building Rust GraphQL server.
+
 `A Rust authentication server with GraphQL API, Diesel, PostgreSQL session authentication and JWT`
 
 This [Reframe](https://github.com/ansvia/reframe) source based on [Canduma](https://github.com/clifinger/canduma).
