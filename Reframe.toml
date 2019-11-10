@@ -1,0 +1,39 @@
+[reframe]
+name = "Canduma"
+author = "contact.lenne@gmail.com,obin.mf@gmail.com"
+min_version = "0.3.0"
+
+[project]
+name = "Canduma"
+version = "0.1.0"
+ignore_dirs = [
+  "target",
+  "build",
+]
+ignore_files = [
+  ".packages",
+  "*.iml",
+  ".env"
+]
+finish_text = """Usage:
+
+    $ cd $name_kebab_case$
+    $ docker-compose up
+    $ cp .env.example .env
+    $ diesel setup --database-url='postgres://postgres@localhost/$name_snake_case$'
+    $ diesel migration run
+    $ cargo run
+
+"""
+
+[[param]]
+desc = { ask = "Description ?", default="My GraphQL API, Diesel, PostgreSQ server" }
+
+[[param]]
+author_name = { ask = "Author name?", default="Hacker" }
+
+[[param]]
+author_email = { ask = "Author email?", default="hacker@mail.com" }
+
+[[param]]
+default_port = { ask = "Default port", default="3000" }
