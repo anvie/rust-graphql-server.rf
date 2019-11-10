@@ -14,3 +14,4 @@ This [Reframe](https://github.com/ansvia/reframe) source based on [Canduma](http
 $ reframe anvie/rust-graphql-server
 ```
 
+![Reframe Demo](https://github.com/anvie/rust-graphql-server.rf/blob/master/docs/images/demo.gif?raw=true)

@@ -1,6 +1,6 @@
 [package]
 name = "$name_snake_case$"
-version = "0.1.0"
+version = "$version$"
 authors = ["$param.author_name$ <$param.author_email_lower_case$>"]
 edition = "2018"
 
